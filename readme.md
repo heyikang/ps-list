@@ -1,6 +1,6 @@
 # @heyikang/ps-list
 
-> Get running processes
+> Get running processes, support electron
 
 Works on macOS, Linux, and Windows.
 
@@ -19,7 +19,7 @@ console.log(
 	await psList({
 		// Source: https://github.com/MarkTiedemann/fastlist
 		pslistX64Path: "fastlist x64 executable path",
-		pslistIa32Path: "fastlist x64 executable path",
+		pslistIa32Path: "fastlist x86 executable path",
 	})
 );
 //=> [{pid: 3213, name: 'node', cmd: 'node test.js', ppid: 1, uid: 501, cpu: 0.1, memory: 1.5}, …]
