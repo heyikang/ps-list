@@ -1,5 +1,5 @@
 # @heyikang/ps-list
-
+## Fork on [sindresorhus/ps-list](https://github.com/sindresorhus/ps-list)
 > Get running processes, support electron
 
 Works on macOS, Linux, and Windows.
